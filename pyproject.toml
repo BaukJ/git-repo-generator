@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "git-repo-generator"
+version = "0.1.0"
+description = ""
+authors = ["Kuba Jasko <kubajasko@hotmail.co.uk>"]
+readme = "README.md"
+packages = [{include = "git_repo_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
