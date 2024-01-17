@@ -8,6 +8,10 @@ packages = [{include = "git_repo_generator"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+click = "^8.1.6"
+
+[tool.poetry.scripts]
+git-repo-generator = "git_repo_generator.cli:cli"
 
 
 [build-system]
